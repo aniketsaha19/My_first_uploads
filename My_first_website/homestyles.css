@@ -1,0 +1,73 @@
+/*Edits the main heading*/
+h1{
+	color:blue;
+	font-size:50px;
+	text-align:center;
+	text-decoration:underline;
+	text-shadow: 2px 2px red;
+	font-family: "Algerian",serif;
+}
+/*Changes the background of the website*/
+body
+{
+	background-color:#7FFFD4;
+}
+/*puts border after every sub heading*/
+h2{
+	border-bottom-style: groove;
+	border-width: 5px;
+}
+/*Changes the text font and puts at the end of the paragraph*/
+p
+{
+	border-bottom-style: dotted;
+	border-width: 5px;
+	font-family: "Georgia",sanserif;
+/*Decorates the hypertext while hovering over it with mousepointer*/	
+}
+a:hover
+{
+		background-color:white;
+		color:Green;
+}
+/*for margin*/
+.paramargin
+{
+		margin-left:10PX;
+		
+}
+/*frames the picture*/
+/*.normal_img
+{
+	width: 500px;
+  border: 20px ;
+  padding:5px;
+  margin: 20px;
+  border-style: groove;
+  
+  }*/
+  /*the next two classes are for creating a unique text font*/
+  	.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+.sanserif{
+	font-family: "Georgia",sanserif;
+}
+/*gives a modernise look to our icons*/
+button:hover{
+			background-color:red;
+			color:black;
+}
+/* use this to put borders around things... */
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+  margin-bottom: 10px;
+}
+
+.large-img{
+  max-width:50%;
+  max-height:400px;
+  display:block;
+  margin:auto;
+}
